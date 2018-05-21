@@ -2,12 +2,12 @@
 
 This is a very simple Kafka source connector to MQTT broker
 
-#####Prerequisites
+#### Prerequisites
 1. Java v1.8
 2. Kafka v1.1.0
 3. Maven v3.5.2
 
-#####Installing
+#### Installing
 
 Start up your MQTT broker with preconfigured topics and producers
 
@@ -51,7 +51,7 @@ See the result
 bin/kafka-console-consumer.sh --zookeeper localhost:2181 --from-beginning --topic test
 ````
 
-#####todo
+#### todo
 
 Add SSL
 
